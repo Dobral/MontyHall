@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парадокс Монти Холла</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="docum/MX.pdf"><h1 align="center">Парадокс Монти Холла</h1></a>
+
+    <div class="main" align="center">
+      <p>Побед: <span id="win"></span> Проигрышей: <span id="loss"></span></p>
+      <div class="victory">
+        <span>Вероятность выигрыша:</span>
+        <img src="img/car.png" width="10%">
+        <span id="ratio"></span> %
+      </div>
+
+      <canvas id="myCanvas" width="600" height="400"></canvas>
+      <p align="center"><span id="status"></span></p>
+
+      <button id="restart">Начать сначала</button>
+      <button id="simulate1000">1000 игр (авто)</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

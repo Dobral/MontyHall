@@ -1,0 +1,54 @@
+.main{
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.victory{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#win{
+    color: rgb(67, 8, 241);
+  }
+  #loss{
+    color: rgb(237, 12, 12);
+  }
+
+  #ratio{
+    font-size: 32px;
+  }
+
+  body {
+      font-family: 'Source Sans Pro', 'Arial';
+      font-size: 24px;
+      background-color: #F9F9F9;
+    }
+
+#restart, #simulate1000 {
+ 
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+ 
+}
+
+
+  canvas { 
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+  }
+
